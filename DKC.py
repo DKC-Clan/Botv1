@@ -24,23 +24,23 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == '!Rainbowpng':
+    if message.content == '!rainbowpng':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139272632860701/DYK_Rainbow_Six.png')
         await client.send_message(message.channel, embed=em)
-    if message.content == '!LOLpng':
+    if message.content == '!lolpng':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139248863739914/DKC_League_of_Legends.png')
         await client.send_message(message.channel, embed=em)
-    if message.content == '!RLpng':
+    if message.content == '!rlpng':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139296011649024/Rocket_League_DKC.png')
         await client.send_message(message.channel, embed=em)
-    if message.content == '!CSGOpng':
+    if message.content == '!csgopng':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139219637698560/DKC_CSGO.jpg')
         await client.send_message(message.channel, embed=em)
-    if message.content == '!OWpng':
+    if message.content == '!owpng':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139284980891652/Overwatch_LOGO.png')
         await client.send_message(message.channel, embed=em)
