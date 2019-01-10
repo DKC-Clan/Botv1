@@ -44,4 +44,10 @@ async def on_message(message):
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/530128542474829829/530139284980891652/Overwatch_LOGO.png')
         await client.send_message(message.channel, embed=em)
+    if message.content == '!teamleader':
+        await client.send_message(message.channel,'Die Teamleader sind: CS:GO- @Wreyst  | R6- @Baelo. | R6 Academy- @MCViddi | LoL- @Reas | RL- @Zz3roX#621  ')
+    if message.content == '!com':
+        await client.send_message(message.channel,'!pngs | !teamleader |')
+    if message.content == '!pngs':
+        await client.send_message(message.channel,'!lolpng | !rlpng | !owpng | !csgopng | !rainbowpng ')
 client.run('NTMwMTM2NjcyNzUxMzIxMTA2.Dw7Aug.q3Qkc6HOy5-U4mt7r0UMem9J9V8')
